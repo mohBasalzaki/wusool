@@ -111,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
             border: none;
             cursor: pointer;
             z-index: 9999;
+            background: transparent;
             transition: all 0.3s ease;
         }
         .a11y-widget-btn:hover {
@@ -257,9 +258,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <div class="a11y-panel">
         <div class="a11y-header">
-            <div class="a11y-title">
+            <a href="https://wusool.pages.dev/" target="_blank" class="a11y-title">
                 <img src="https://wusool.pages.dev/dist/img/logo.svg" alt="">
-            </div>
+            </a>
             <button class="a11y-close" onclick="toggleA11yPanel()">&times;</button>
         </div>
 
