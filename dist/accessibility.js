@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </style>
 
     <button class="a11y-widget-btn" onclick="toggleA11yPanel()" data-i18n-aria="open_accessibility_options">
-        <img src="dist/img/icon.svg" alt="">
+        <img src="https://wusool.pages.dev/dist/img/icon.svg" alt="">
     </button>
 
     <div class="a11y-overlay" onclick="toggleA11yPanel()"></div>
@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="a11y-panel">
         <div class="a11y-header">
             <div class="a11y-title">
-                <img src="dist/img/logo.svg" alt="">
+                <img src="https://wusool.pages.dev/dist/img/logo.svg" alt="">
             </div>
             <button class="a11y-close" onclick="toggleA11yPanel()">&times;</button>
         </div>
