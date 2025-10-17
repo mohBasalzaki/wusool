@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .a11y-content {
             padding: 20px;
         }
-        .a11y-section {
+        .a11y-section, .a11y-form-section {
             margin-bottom: 20px;
         }
         .a11y-section-title {
